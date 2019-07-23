@@ -28,3 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
   display: block;
 }
+
+.title-on-top {
+	top: 0px !important;
+}
+
+.roll-in-left {
+	-webkit-animation: roll-in-left 0.6s ease-out both;
+	        animation: roll-in-left 0.6s ease-out both;
+}
+
+.re-sized {
+	width: 1960px !important;
+}
+
+
+.no-brackground-img {
+    margin: 0px !important;
+    background: none !important;
+    border: none !importat;
+    box-shadow: none !importat;
+
+}
