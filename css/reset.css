@@ -50,3 +50,13 @@ footer, header, hgroup, main, menu, nav, section {
     box-shadow: none !importat;
 
 }
+
+.reset-baseline {
+   vertical-align: middle !important;
+}
+
+img.reset-baseline {
+  width: 25%; 
+  margin: 5%;
+  padding: 5%; 
+}
