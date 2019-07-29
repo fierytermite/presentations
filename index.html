@@ -52,12 +52,18 @@
 						<h3>• Cyber Threat Ingelligence</h3>
 						<blockquote>La Inteligencia de Amenazas (CTI) es una disciplina que intenta ser una medida proactiva de seguridad informática y de redes. Se centra en la recopilación de datos y el análisis de información para obtener una mayor comprensión de las amenazas a las que enfrenta una organización. El objetivo de un analista de CTI es producir y entregar información inteligente relevante, precisa y de manera <strong>oportuna</strong> para que las organizaciones sepan cómo protegerese de un potencial ataque. <br> <br>Las principales áreas de interés de la Inteligencia de Amenazas son el ciberdelito, el hacktivismo y el ciberespionaje.</blockquote>
 					</section>
-					<section data-background="#82589F">
-						<h3>Amenazas Persistentes Avanzadas (APTs)</h3>
-						<p></p>
-					</section>
 					<section data-background="#ffaf40">
 						<img src="/img/dikw.png" alt='DIKW Piramid'>
+					</section>
+					<section data-background="#000000">
+						<h3>Amenazas Persistentes Avanzadas</h3>
+						<img src="/img/carmencutted.gif" alt="Bandit">
+					</section>
+					<section data-background="#82589F">
+						<h3>Que son?</h3>
+						<p>Las amenazas persistentes avanzadas o APTs (por sus siglas en ingles) son un tipo sofisticado de ciberataque, aunque el termino ha llegado a mimetizarse con el de cyber actores, es decir, agrupaciones que realizan campañas maliciosas contra objetivos concretos.</p>
+						<p>Existen diferentes tipos de actores segun su sofisticacion y sus motivaciones.</p>
+						<p>Los principales tipos son: hacktivistas, sindicatos criminales, espias, insiders, estados nacion y grupos terroristas. </p>
 					</section>
 					<section data-background="#67e6dc">
 						<h3>Cyber Kill Chain</h3>
@@ -80,15 +86,15 @@
 						<h3>Por método de propagación</h3>
 						<ul class='reset-baseline'>
 							<li>A través de <strong>Descargas</strong></li>
-							<li>A través de <strong>Redes interconectadas</strong></li>
+							<li>A través de <strong>Redes homogeneas</strong></li>
 							<li>A través de <strong>Vulnerabilidades</strong></li>
-							<li>A través de <strong>Backdoor</strong> preinstaladas</li>
+							<li>A través de <strong>Backdoors preinstaladas</strong></li>
 						</ul>
 						<img class='reset-baseline' src="/img/snake.gif" alt="snake">
 					</section>
 					<section data-background='#58B19F' style="color: white;">
 						<h3 style="color: white;">Por tipo</h3>
-						<ul class='reset-baseline'>
+						<ul class='reset-baseline' style="margin-left: 5em;">
 							<li>Virus</li>
 							<li>Worm</li>
 							<li>Trojan</li>
@@ -113,9 +119,17 @@
 							<li>URLs, dominios o IPs</li>
 						</ul>
 					</section>
+					<section data-background='#B33771'>
+						<img src="" alt="VirusTotal">
+						<img src="" alt="AlienVault">
+					</section>
 					<section data-background='#7d5fff'>
 						<h3>Sandbox y Análisis de Malware</h3>
 						<img src="img/sandbox.png" alt="sandbox process" style="margin-top: 5%;" />
+					</section>
+					<section data-background='#B33771'>
+						<img src="" alt="AppAnyRun">
+						<img src="" alt="HybridAnalysis">
 					</section>
 				</section>
 				<section>
@@ -123,7 +137,33 @@
 						<h3>Análisis</h3>
 					</section>
 					<section data-background='#18dcff'>
-						<h3>Hipótesis y prejuicios</h3>
+						<h3>Tipos de inteligencia</h3>
+						<p><strong>Inteligenica a corto plazo:</strong> se enfoca en problemas con una duracion de una o dos semanas</p>
+						<p><strong>Inteligencia a largo plazo:</strong> se enfoca en problemas que tienen una larga continuidad en el tiempo</p>
+						<p>Un analista de inteligencia debe transformar la informacion en conocimiento que ayude a la toma de decisiones</p>
+					</section>
+					<section>
+						<ul>
+							<li>Diseccionar la informacion para determinar que esta pasando</li>
+							<li>Unificar distintos analisis para obtener una mayor perspectiva</li>
+							<li>Armar un puzzle con piezas que cambian constantemente</li>
+							<li>Imaginar todos los escenarios posibles y evaluar sus probabilidades</li>
+							<li>Sintetizar de forma intuitiva y rápida el subtexto de una situación</li>
+						</ul>
+
+							<blockquote>"Llegado a cierto punto, el analista debe confiar en su instinto" - Lowenthal</blockquote>
+					</section>
+					<section>
+						<h3>Principales problemas de los analistas</h3>
+						<ul class="analyst-problems">
+							<li>No convertirse en repartidores de los datos recolectados</li>
+							<li>A mayor tiempo analizado, menos confiable es el analisis</li>
+							<li>No cruzar la linea que divide analisis y politica</li>
+							<li>Filtrar los puntos de vista propios de los analisis</li>
+							<li>Imagen de espejo</li>
+							<li>Caer el pensamiento lineal</li>
+							<li>Caer el clientelismo respecto al objeto analizado</li>
+						</ul>
 					</section>
 					<section data-background='#130f40'>
 						<h3>MITRE ATT&CK Framework</h3>
@@ -171,13 +211,12 @@ rule APT28_CHOPSTICK {
 					</section>
 					<section data-background='#6D214F'>
 						<h3>¿Qué es la atribución?</h3>
-						<p></p>
+						<p>Se conoce como atribucion el proceso mediante el cual el analista, tras analizar la informacion producida durante el procesamiento de los datos recolectados y en base a su experiencia previa, determina quien o quienes son los responsables de una campañas.</p>
 					</section>
 					<section data-background='#ff3838'>
 						<h3>Problemas de la atribución</h3>
 						<blockquote class="twitter-tweet embed" data-lang="en" style="display: inline-block !important;"><p lang="en" dir="ltr">CLEARED FOR RELEASE: We thwarted an attempted Hamas cyber offensive against Israeli targets. Following our successful cyber defensive operation, we targeted a building where the Hamas cyber operatives work. <br><br>HamasCyberHQ.exe has been removed. <a href="https://t.co/AhgKjiOqS7">pic.twitter.com/AhgKjiOqS7</a></p>&mdash; Israel Defense Forces (@IDF) <a href="https://twitter.com/IDF/status/1125066395010699264?ref_src=twsrc%5Etfw">May 5, 2019</a></blockquote>
 						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 					</section>
 				</section>				
 			</div>
