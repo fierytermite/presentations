@@ -60,3 +60,16 @@ img.reset-baseline {
   margin: 5%;
   padding: 5%; 
 }
+
+.code-box {
+  width: 950px !important;
+  font-size: 0.3em !important;
+}
+
+.emphasis {
+  color: red;
+}
+
+.embed {
+  display: inline-block !important;
+}
