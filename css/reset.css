@@ -77,3 +77,6 @@ img.reset-baseline {
 
 .twitter-tweet {margin:auto; width: 420px !important;}
 
+.lista-redux, .lista-redux li {
+  font-size: 0.85em;
+}
